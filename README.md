@@ -1,4 +1,7 @@
-
+<p align="center">
+    <img src="assets/Logo-1.png" alt="intersim-logo" width="350px" >
+</p>
+##
 # Interview Simulator Apps Mobile Android.
 
 
