@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "338615680317",
+    "firebase_url": "https://intersim-test-default-rtdb.firebaseio.com",
+    "project_id": "intersim-test",
+    "storage_bucket": "intersim-test.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338615680317:android:f9b5ee94822ae4a8539954",
+        "android_client_info": {
+          "package_name": "com.taoc.intersim1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVkI8xMi9dolJ4J1t9fMtnI9Bp7vfwPHc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338615680317:android:8bc520683fe0e588539954",
+        "android_client_info": {
+          "package_name": "com.taoc.intersim_test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVkI8xMi9dolJ4J1t9fMtnI9Bp7vfwPHc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
