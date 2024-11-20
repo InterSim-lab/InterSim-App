@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.taoc.intersim_app.databinding.ActivityMainBinding
 import com.taoc.intersim_app.ui.home.HomeFragment
+import com.taoc.intersim_test.ui.account.AccountFragment
 
 class MainActivity : BaseActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -21,6 +22,10 @@ class MainActivity : BaseActivity() {
             when (item.itemId) {
                 R.id.navigation_home -> {
                     replacefragment(HomeFragment())
+                    true
+                }
+                R.id.navigation_account -> {
+                    replacefragment(AccountFragment())
                     true
                 }
                 else -> false

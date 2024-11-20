@@ -11,6 +11,12 @@
         android:label="@string/nav_home"
         tools:layout="@layout/fragment_home" />
 
+    <fragment
+        android:id="@+id/navigation_account"
+        android:name="com.taoc.intersim_test.ui.home.AccountFragment"
+        android:label="@string/nav_home"
+        tools:layout="@layout/fragment_account" />
+
     <activity
         android:id="@+id/introActivity"
         android:name="com.taoc.intersim_test.IntroActivity"
