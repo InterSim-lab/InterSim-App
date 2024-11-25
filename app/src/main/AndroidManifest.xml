@@ -13,6 +13,9 @@
         android:theme="@style/Theme.InterSimtest"
         tools:targetApi="31">
         <activity
+            android:name="com.taoc.intersim_test.chat.ChatActivity"
+            android:exported="false" />
+        <activity
             android:name="com.taoc.intersim_test.ui.detailjobs.DetailJobsActivity"
             android:exported="false" />
         <activity
