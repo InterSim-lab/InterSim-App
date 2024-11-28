@@ -21,7 +21,11 @@
             android:layout_width="400dp"
             android:layout_height="266dp"
             android:layout_marginStart="38dp"
+<<<<<<< HEAD
             android:layout_marginTop="100dp"
+=======
+            android:layout_marginTop="170dp"
+>>>>>>> 01c65e76144a30efd66b83218116a32fceda2410
             android:layout_marginEnd="38dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

@@ -7,14 +7,24 @@
         android:icon="@drawable/home_24"/>
 
     <item
+<<<<<<< HEAD
         android:id="@+id/navigation_search"
+=======
+        android:id="@+id/bottom_search"
+>>>>>>> 01c65e76144a30efd66b83218116a32fceda2410
         android:title="Search"
         android:icon="@drawable/white_search_24"/>
 
     <item
+<<<<<<< HEAD
         android:id="@+id/navigation_history"
         android:title="History"
         android:icon="@drawable/history_24"/>
+=======
+        android:id="@+id/bottom_chat"
+        android:title="Chat"
+        android:icon="@drawable/chat_24"/>
+>>>>>>> 01c65e76144a30efd66b83218116a32fceda2410
 
     <item
         android:id="@+id/navigation_account"

@@ -29,7 +29,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/jobLogo"
+<<<<<<< HEAD
         android:layout_marginTop="-20dp"
+=======
+        android:layout_marginTop="-34dp"
+>>>>>>> 01c65e76144a30efd66b83218116a32fceda2410
         android:background="@drawable/rounded_top_background"
         android:orientation="vertical"
         android:padding="16dp">
@@ -68,7 +72,11 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:background="@drawable/rounded_button"
+<<<<<<< HEAD
             android:text="Enter chat to test interview"
+=======
+            android:text="Enter chat to interview"
+>>>>>>> 01c65e76144a30efd66b83218116a32fceda2410
             android:textColor="#FFFFFF"
             android:textStyle="bold" />
     </LinearLayout>

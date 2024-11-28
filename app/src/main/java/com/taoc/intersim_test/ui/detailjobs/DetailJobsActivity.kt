@@ -3,6 +3,7 @@ package com.taoc.intersim_test.ui.detailjobs
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+<<<<<<< HEAD
 import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.TextView
@@ -24,10 +25,22 @@ class DetailJobsActivity : AppCompatActivity() {
     private lateinit var jobDescription: TextView
     private lateinit var enterChatButton: Button
 
+=======
+import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+import com.taoc.intersim_app.R
+import com.taoc.intersim_test.chat.ChatActivity
+
+class DetailJobsActivity : AppCompatActivity() {
+
+>>>>>>> 01c65e76144a30efd66b83218116a32fceda2410
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail_jobs)
 
+<<<<<<< HEAD
         jobLogo = findViewById(R.id.jobLogo)
         jobTitle = findViewById(R.id.jobTitle)
         jobCompany = findViewById(R.id.jobPosition)
@@ -72,5 +85,12 @@ class DetailJobsActivity : AppCompatActivity() {
         jobCompany.text = job.company
         jobDescription.text = job.description
         Glide.with(this).load(job.urlImg).into(jobLogo)
+=======
+        val enterChatButton: Button = findViewById(R.id.enterChatButton)
+        enterChatButton.setOnClickListener {
+            val intent = Intent(this, ChatActivity::class.java)
+            startActivity(intent)
+        }
+>>>>>>> 01c65e76144a30efd66b83218116a32fceda2410
     }
 }

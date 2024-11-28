@@ -2,8 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+<<<<<<< HEAD
     <uses-permission android:name="android.permission.INTERNET" />
 
+=======
+>>>>>>> 01c65e76144a30efd66b83218116a32fceda2410
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -24,7 +27,11 @@
             android:name=".register.RegisterActivity"
             android:exported="false" />
         <activity
+<<<<<<< HEAD
             android:name="com.taoc.intersim_test.login.LoginActivity"
+=======
+            android:name="com.taoc.login.LoginActivity"
+>>>>>>> 01c65e76144a30efd66b83218116a32fceda2410
             android:exported="false" />
         <activity
             android:name=".BaseActivity"

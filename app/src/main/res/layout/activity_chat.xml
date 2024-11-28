@@ -14,8 +14,12 @@
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:background="#002244"
+<<<<<<< HEAD
         android:padding="8dp"
         android:layout_marginTop="20dp">
+=======
+        android:padding="8dp">
+>>>>>>> 01c65e76144a30efd66b83218116a32fceda2410
 
         <!-- Back Button -->
         <ImageButton
@@ -34,7 +38,10 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
+<<<<<<< HEAD
             android:layout_marginEnd="10dp"
+=======
+>>>>>>> 01c65e76144a30efd66b83218116a32fceda2410
             android:text="Bangkit Academy"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
@@ -54,8 +61,12 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:padding="8dp"
+<<<<<<< HEAD
         android:layout_marginBottom="10dp"
         android:background="@color/darkblue">
+=======
+        android:background="#FFFFFF">
+>>>>>>> 01c65e76144a30efd66b83218116a32fceda2410
 
         <EditText
             android:id="@+id/messageInput"

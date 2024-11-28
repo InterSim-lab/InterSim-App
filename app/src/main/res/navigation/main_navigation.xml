@@ -24,7 +24,11 @@
         tools:layout="@layout/activity_intro" />
     <activity
         android:id="@+id/loginActivity"
+<<<<<<< HEAD
         android:name="com.taoc.intersim_test.login.LoginActivity"
+=======
+        android:name="com.taoc.login.LoginActivity"
+>>>>>>> 01c65e76144a30efd66b83218116a32fceda2410
         android:label="activity_login"
         tools:layout="@layout/activity_login" />
     <activity
@@ -32,6 +36,7 @@
         android:name="com.taoc.intersim_test.register.RegisterActivity"
         android:label="activity_register"
         tools:layout="@layout/activity_register" />
+<<<<<<< HEAD
     <fragment
         android:id="@+id/navigation_search"
         android:name="com.taoc.intersim_test.ui.search.SearchFragment"
@@ -42,4 +47,6 @@
         android:name="com.taoc.intersim_test.ui.history.HistoryFragment"
         android:label="fragment_history"
         tools:layout="@layout/fragment_history" />
+=======
+>>>>>>> 01c65e76144a30efd66b83218116a32fceda2410
 </navigation>

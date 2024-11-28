@@ -9,7 +9,11 @@ import android.view.View
 import android.view.ViewGroup
 import com.taoc.intersim_app.R
 import com.taoc.intersim_app.databinding.FragmentAccountBinding
+<<<<<<< HEAD
 import com.taoc.intersim_test.login.LoginActivity
+=======
+import com.taoc.login.LoginActivity
+>>>>>>> 01c65e76144a30efd66b83218116a32fceda2410
 
 class AccountFragment : Fragment() {
     private var _binding: FragmentAccountBinding? = null
@@ -34,13 +38,22 @@ class AccountFragment : Fragment() {
     private fun loadUserData() {
         val sharedPref = requireActivity().getSharedPreferences("USER_DATA", Context.MODE_PRIVATE)
         binding.apply {
+<<<<<<< HEAD
             tvName.text = sharedPref.getString("FULL_NAME", "No Name")
             tvEmail.text = sharedPref.getString("EMAIL", "No Email")
+=======
+            userName.text = sharedPref.getString("FULL_NAME", "No Name")
+            userEmail.text = sharedPref.getString("EMAIL", "No Email")
+>>>>>>> 01c65e76144a30efd66b83218116a32fceda2410
         }
     }
 
     private fun setupLogoutButton() {
+<<<<<<< HEAD
         binding.tvLogout.setOnClickListener {
+=======
+        binding.logoutButton.setOnClickListener {
+>>>>>>> 01c65e76144a30efd66b83218116a32fceda2410
             requireActivity().getSharedPreferences("USER_DATA", Context.MODE_PRIVATE)
                 .edit()
                 .putBoolean("IS_LOGGED_IN", false)

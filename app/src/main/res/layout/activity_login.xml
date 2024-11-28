@@ -5,7 +5,11 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     tools:context="com.taoc.intersim_test.login.LoginActivity"
+=======
+    tools:context="com.taoc.login.LoginActivity"
+>>>>>>> 01c65e76144a30efd66b83218116a32fceda2410
     android:background="@color/darkblue">
 
     <LinearLayout
@@ -21,7 +25,11 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+<<<<<<< HEAD
                 android:layout_marginTop="50dp">
+=======
+                android:layout_marginTop="130dp">
+>>>>>>> 01c65e76144a30efd66b83218116a32fceda2410
 
                 <ImageView
                     android:id="@+id/imageLogin"
@@ -49,7 +57,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
+<<<<<<< HEAD
                 android:layout_marginTop="20dp">
+=======
+                android:layout_marginTop="40dp">
+>>>>>>> 01c65e76144a30efd66b83218116a32fceda2410
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
@@ -58,12 +70,19 @@
                     <EditText
                         android:id="@+id/editTextTextEmailAddress"
                         android:layout_width="355dp"
+<<<<<<< HEAD
                         android:layout_height="50dp"
                         android:background="@drawable/text_input_bluepalette_5"
                         android:drawableStart="@drawable/mail_outline_24"
                         android:padding="10dp"
                         android:hint="Your Email Address"
                         android:textColorHint="@color/white"
+=======
+                        android:layout_height="40dp"
+                        android:background="@drawable/text_input_bluepalette_5"
+                        android:drawableStart="@drawable/mail_outline_24"
+                        android:padding="10dp"
+>>>>>>> 01c65e76144a30efd66b83218116a32fceda2410
                         android:textColor="@color/white"
                         android:fontFamily="@font/poppins"
                         android:textSize="12dp"
@@ -75,13 +94,20 @@
                     <EditText
                         android:id="@+id/editTextTextPassword"
                         android:layout_width="355dp"
+<<<<<<< HEAD
                         android:layout_height="50dp"
+=======
+                        android:layout_height="40dp"
+>>>>>>> 01c65e76144a30efd66b83218116a32fceda2410
                         android:layout_marginTop="25dp"
                         android:background="@drawable/text_input_bluepalette_5"
                         android:drawableStart="@drawable/lock_outline_24"
                         android:padding="10dp"
+<<<<<<< HEAD
                         android:hint="Your Password"
                         android:textColorHint="@color/white"
+=======
+>>>>>>> 01c65e76144a30efd66b83218116a32fceda2410
                         android:textColor="@color/white"
                         android:fontFamily="@font/poppins"
                         android:textSize="12dp"
@@ -109,7 +135,11 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+<<<<<<< HEAD
                 android:layout_marginTop="20dp">
+=======
+                android:layout_marginTop="25dp">
+>>>>>>> 01c65e76144a30efd66b83218116a32fceda2410
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/buttonLogin"
@@ -128,7 +158,11 @@
                     android:id="@+id/textRegister"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+<<<<<<< HEAD
                     android:layout_marginTop="18dp"
+=======
+                    android:layout_marginTop="8dp"
+>>>>>>> 01c65e76144a30efd66b83218116a32fceda2410
                     android:fontFamily="@font/poppins"
                     android:text="dont't have account? Register"
                     android:textColor="@color/white"

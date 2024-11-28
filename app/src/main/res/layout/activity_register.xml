@@ -21,7 +21,11 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+<<<<<<< HEAD
                 android:layout_marginTop="50dp">
+=======
+                android:layout_marginTop="130dp">
+>>>>>>> 01c65e76144a30efd66b83218116a32fceda2410
 
                 <ImageView
                     android:id="@+id/imageLogin"
@@ -49,7 +53,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
+<<<<<<< HEAD
                 android:layout_marginTop="20dp">
+=======
+                android:layout_marginTop="40dp">
+>>>>>>> 01c65e76144a30efd66b83218116a32fceda2410
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
@@ -58,12 +66,19 @@
                     <EditText
                         android:id="@+id/editTextTextUsernameAddress"
                         android:layout_width="355dp"
+<<<<<<< HEAD
                         android:layout_height="50dp"
                         android:background="@drawable/text_input_bluepalette_5"
                         android:drawableStart="@drawable/ic_person_24"
                         android:padding="10dp"
                         android:hint="Your Username"
                         android:textColorHint="@color/white"
+=======
+                        android:layout_height="40dp"
+                        android:background="@drawable/text_input_bluepalette_5"
+                        android:drawableStart="@drawable/ic_person_24"
+                        android:padding="10dp"
+>>>>>>> 01c65e76144a30efd66b83218116a32fceda2410
                         android:textColor="@color/white"
                         android:fontFamily="@font/poppins"
                         android:textSize="12dp"
@@ -75,13 +90,20 @@
                     <EditText
                         android:id="@+id/editTextTextEmailAddress"
                         android:layout_width="355dp"
+<<<<<<< HEAD
                         android:layout_height="50dp"
+=======
+                        android:layout_height="40dp"
+>>>>>>> 01c65e76144a30efd66b83218116a32fceda2410
                         android:background="@drawable/text_input_bluepalette_5"
                         android:drawableStart="@drawable/mail_outline_24"
                         android:padding="10dp"
                         android:layout_marginTop="25dp"
+<<<<<<< HEAD
                         android:hint="Your Email Address"
                         android:textColorHint="@color/white"
+=======
+>>>>>>> 01c65e76144a30efd66b83218116a32fceda2410
                         android:textColor="@color/white"
                         android:fontFamily="@font/poppins"
                         android:textSize="12dp"
@@ -94,13 +116,20 @@
                     <EditText
                         android:id="@+id/editTextTextPassword"
                         android:layout_width="355dp"
+<<<<<<< HEAD
                         android:layout_height="50dp"
+=======
+                        android:layout_height="40dp"
+>>>>>>> 01c65e76144a30efd66b83218116a32fceda2410
                         android:layout_marginTop="25dp"
                         android:background="@drawable/text_input_bluepalette_5"
                         android:drawableStart="@drawable/lock_outline_24"
                         android:padding="10dp"
+<<<<<<< HEAD
                         android:hint="Your Password"
                         android:textColorHint="@color/white"
+=======
+>>>>>>> 01c65e76144a30efd66b83218116a32fceda2410
                         android:textColor="@color/white"
                         android:fontFamily="@font/poppins"
                         android:textSize="12dp"

@@ -16,6 +16,7 @@ class ChatActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_chat)
 
+<<<<<<< HEAD
         val jobId = intent.getStringExtra("jobId") // Ambil ID pekerjaan
 
         val backButton: ImageButton = findViewById(R.id.backButton)
@@ -24,4 +25,14 @@ class ChatActivity : AppCompatActivity() {
         }
     }
 
+=======
+        val backButton: ImageButton = findViewById(R.id.backButton)
+        backButton.setOnClickListener {
+            val intent = Intent(this, DetailJobsActivity::class.java)
+            intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP
+            startActivity(intent)
+            finish()
+        }
+    }
+>>>>>>> 01c65e76144a30efd66b83218116a32fceda2410
 }

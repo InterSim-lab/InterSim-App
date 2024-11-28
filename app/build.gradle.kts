@@ -52,6 +52,7 @@ dependencies {
 
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
+<<<<<<< HEAD
     implementation("com.github.bumptech.glide:glide:4.12.0")
     annotationProcessor("com.github.bumptech.glide:compiler:4.12.0")
 
@@ -62,4 +63,7 @@ dependencies {
     implementation(libs.logging.interceptor)
 
     implementation(libs.androidx.recyclerview)
+=======
+    implementation(libs.github.glide)
+>>>>>>> 01c65e76144a30efd66b83218116a32fceda2410
 }
