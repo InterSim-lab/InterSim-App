@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">InterSim</string>
+    <string name="textbanner">You want to practice\ninterviewing?\nlet\'s find a job that you want\nto practice the interview.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_home"></string>
+</resources>
