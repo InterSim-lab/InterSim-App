@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.taoc.intersim_test.ui.home.HomeFragment"
+        android:label="@string/nav_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_account"
+        android:name="com.taoc.intersim_test.ui.home.AccountFragment"
+        android:label="@string/nav_home"
+        tools:layout="@layout/fragment_account" />
+
+    <activity
+        android:id="@+id/introActivity"
+        android:name="com.taoc.intersim_test.IntroActivity"
+        android:label="activity_intro"
+        tools:layout="@layout/activity_intro" />
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.taoc.login.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <activity
+        android:id="@+id/registerActivity"
+        android:name="com.taoc.intersim_test.register.RegisterActivity"
+        android:label="activity_register"
+        tools:layout="@layout/activity_register" />
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.taoc.intersim_test.ui.search.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.taoc.intersim_test.ui.history.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" />
+</navigation>

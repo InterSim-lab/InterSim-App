@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00397E">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/jobLogo"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            android:contentDescription="Bangkit Logo"
+            android:src="@drawable/bannerbangkit" />
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
+            android:background="@android:color/transparent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/ic_back"
+            android:contentDescription="Back button"
+            app:tint="@color/darkblue" />
+
+        <LinearLayout
+            android:id="@+id/detailContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/jobLogo"
+            android:layout_marginTop="-20dp"
+            android:background="@drawable/rounded_top_background"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/jobTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Bangkit Academy"
+                android:textColor="@color/white"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/jobPosition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Mobile Developer"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/jobDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla mollis nulla vitae fringilla. Vestibulum fermentum, dui sit amet facilisis varius, nibh elit malesuada arcu, sit amet tristique velit sem vitae odio. Ut pellentesque arcu vitae turpis ultricies, ut feugiat mauris iaculis. Proin hendrerit quis risus sed vestibulum. Phasellus a neque quis nisl consectetur gravida et quis augue. Sed tincidunt diam eros, vitae blandit libero feugiat vitae. Nunc commodo neque in arcu lacinia porta. Nulla facilisi. Nulla pretium venenatis iaculis. Vestibulum est ligula, auctor eu neque eget, efficitur vulputate metus. Donec sodales enim dolor, a bibendum nisl efficitur at."
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/enterChatButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/rounded_button"
+                android:backgroundTint="@color/darkblue"
+                android:text="Enter chat to test interview"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
